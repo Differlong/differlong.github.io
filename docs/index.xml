@@ -204,44 +204,5 @@ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git theme
       
     </item>
     
-    <item>
-      <title></title>
-      <link>https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B9%8B%E6%97%85-04markdown%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A%E5%AE%9E%E7%8E%B0github&#43;pic-go/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B9%8B%E6%97%85-04markdown%E5%85%8D%E8%B4%B9%E5%9B%BE%E5%BA%8A%E5%AE%9E%E7%8E%B0github&#43;pic-go/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85-03hugo-themes%E8%B8%A9%E5%9D%91/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E6%97%85-03hugo-themes%E8%B8%A9%E5%9D%91/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://differlong.github.io/post/%E5%A4%A7%E7%BA%B2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://differlong.github.io/post/%E5%A4%A7%E7%BA%B2/</guid>
-      
-        <description>&lt;h3 id=&#34;大纲&#34;&gt;大纲&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;hugo&lt;/li&gt;
-&lt;li&gt;GitHub Page配置部署&lt;/li&gt;
-&lt;li&gt;markdown免费图床实现&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      
-    </item>
-    
   </channel>
 </rss>
