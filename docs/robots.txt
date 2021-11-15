@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://differlong.github.io/sitemap.xml

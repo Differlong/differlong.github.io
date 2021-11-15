@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 糯米丸的阁楼 - Geek, OpenSource Fan, 来唠唠我的所见所闻</title>
+    <link>https://differlong.github.io/tags/</link>
+    <description>Recent content in Tags on 糯米丸的阁楼 - Geek, OpenSource Fan, 来唠唠我的所见所闻</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>小怪兽爱吃糯米丸</copyright>
+    <lastBuildDate>Mon, 15 Nov 2021 09:30:00 +0800</lastBuildDate><atom:link href="https://differlong.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://differlong.github.io/tags/hugo/</link>
+      <pubDate>Mon, 15 Nov 2021 09:30:00 +0800</pubDate>
+      
+      <guid>https://differlong.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>个人博客</title>
+      <link>https://differlong.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 15 Nov 2021 09:30:00 +0800</pubDate>
+      
+      <guid>https://differlong.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
