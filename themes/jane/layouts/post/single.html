@@ -24,9 +24,11 @@
           <span class="more-meta"> {{ i18n "readingTime" .ReadingTime }} </span>
         {{- end }}
 
-        <!-- Counter urlstat -->
-        {{ if .Site.Params.counter.urlstat.enable }}
-          · 访问量/访客数：<span id="urlstat-page-pv"><!-- info will be inserted --></span>/<span id="urlstat-page-uv"><!-- info will be inserted --></span>
+        <!-- Counter busuanzi -->
+        {{ if .Site.Params.counter.busuanzi.enable }}
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
         {{ end }}
 
         <!-- Counter leancloud -->

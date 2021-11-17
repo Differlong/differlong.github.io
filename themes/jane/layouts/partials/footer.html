@@ -33,9 +33,11 @@
     {{- end -}}
   </span>
 
-  <!-- Counter urlstat -->
-  {{ if .Site.Params.counter.urlstat.enable }}
-    访客数/访问量：<span id="urlstat-site-uv"><!-- info will be inserted --></span>/<span id="urlstat-site-pv"><!-- info will be inserted --></span>
+  <!-- Counter busuanzi -->
+  {{ if .Site.Params.counter.busuanzi.enable }}
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
   {{ end }}
 
   {{ if .Site.Params.customFooter }}

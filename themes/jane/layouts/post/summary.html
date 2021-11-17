@@ -30,7 +30,6 @@
         <span class="more-meta"> <a href="{{ .Permalink }}#disqus_thread">{{ i18n "comments" }}</a> </span>
       {{ end }}
       {{- end }}
-
       <!-- Counter leancloud -->
       {{ if .Site.Params.counter.leancloud.enable }}
         <span id="{{ .RelPermalink }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">

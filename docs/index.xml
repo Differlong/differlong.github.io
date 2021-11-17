@@ -49,7 +49,7 @@
 &lt;ol&gt;
 &lt;li&gt;从&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;Hugo Releases&lt;/a&gt;中下载最新的二进制文件&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;放到某个地方，并把路径加入到环境变量，方便命令行执行。我是放在了D://MyDriver，并把D://MyDriver放入到环境变量Path中。&lt;/p&gt;
