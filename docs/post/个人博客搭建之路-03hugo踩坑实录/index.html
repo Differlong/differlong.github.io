@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>404 page not found - 糯米丸的阁楼 - Geek, OpenSource Fan, 来唠唠我的所见所闻</title>
+  <title>【个人博客搭建之路 03】Hugo踩坑实录 - 糯米丸的阁楼 - Geek, OpenSource Fan, 来唠唠我的所见所闻</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -22,9 +22,9 @@
 
 <meta name="mobile-web-app-capable" content="yes">
 
-<meta name="author" content="糯米丸" />
-  <meta name="description" content="一个懂心理的程序员，记录和分享人生路上的所见所闻" />
-  <meta name="keywords" content="python, 学习感想, 编程, 心理哲学" />
+<meta name="author" content="Loki" /><meta name="description" content="记录hugo搭建过程中遇到的坑和解决方案" />
+<meta name="keywords" content="个人博客,, Hugo" />
+
 
 
 
@@ -34,7 +34,7 @@
 <meta name="generator" content="Hugo 0.89.4" />
 
 
-<link rel="canonical" href="https://differlong.github.io/404.html" />
+<link rel="canonical" href="https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF-03hugo%E8%B8%A9%E5%9D%91%E5%AE%9E%E5%BD%95/" />
 
 
 
@@ -58,15 +58,20 @@
 
 
 
-<meta property="og:title" content="404 Page not found" />
-<meta property="og:description" content="一个懂心理的程序员，记录和分享人生路上的所见所闻" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://differlong.github.io/404.html" />
+<meta property="og:title" content="【个人博客搭建之路 03】Hugo踩坑实录" />
+<meta property="og:description" content="记录hugo搭建过程中遇到的坑和解决方案" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF-03hugo%E8%B8%A9%E5%9D%91%E5%AE%9E%E5%BD%95/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-11-21T13:08:20+08:00" />
+<meta property="article:modified_time" content="2021-11-21T13:08:20+08:00" />
 
-<meta itemprop="name" content="404 Page not found">
-<meta itemprop="description" content="一个懂心理的程序员，记录和分享人生路上的所见所闻"><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="404 Page not found"/>
-<meta name="twitter:description" content="一个懂心理的程序员，记录和分享人生路上的所见所闻"/>
+<meta itemprop="name" content="【个人博客搭建之路 03】Hugo踩坑实录">
+<meta itemprop="description" content="记录hugo搭建过程中遇到的坑和解决方案"><meta itemprop="datePublished" content="2021-11-21T13:08:20+08:00" />
+<meta itemprop="dateModified" content="2021-11-21T13:08:20+08:00" />
+<meta itemprop="wordCount" content="1120">
+<meta itemprop="keywords" content="个人博客,Hugo," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="【个人博客搭建之路 03】Hugo踩坑实录"/>
+<meta name="twitter:description" content="记录hugo搭建过程中遇到的坑和解决方案"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -283,21 +288,166 @@
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-<div class="not-found">
-  <h1 class="error-emoji"></h1>
-  <p class="error-text">/* 404 page not found. */</p>
-  <p class="error-link"><a href="/">↑ Back Home ↑</a></p>
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">【个人博客搭建之路 03】Hugo踩坑实录</h1>
+      
+      <div class="post-meta">
+        <time datetime="2021-11-21" class="post-time">
+          2021-11-21
+        </time>
+        <div class="post-category">
+            <a href="https://differlong.github.io/categories/%E6%8A%80%E6%9C%AF/"> 技术 </a>
+            
+          </div>
+        <span class="more-meta"> 约 1120 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
+
+        
+        
+
+        
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#大致了解">大致了解</a></li>
+        <li><a href="#解决bug">解决bug</a></li>
+        <li><a href="#感想">感想</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
 </div>
-<script>
-  var errorEmojiContainer = document.getElementsByClassName('error-emoji')[0];
-  var emojiArray = [
-    '\\(o_o)/', '(o^^)o', '(˚Δ˚)b', '(^-^*)', '(≥o≤)', '(^_^)b', '(·_·)',
-    '(=\'X\'=)', '(>_<)', '(;-;)', '\\(^Д^)/',
-  ];
-  var errorEmoji = emojiArray[Math.floor(Math.random() * emojiArray.length)];
-  errorEmojiContainer.appendChild(document.createTextNode(errorEmoji));
-</script>
+
+    
+    <div class="post-content">
+      <h3 id="大致了解">大致了解</h3>
+<p>搭建完Hugo的初始页面，随意编写几个测试的md，调用<code>hugo server -D</code>即可看到实际效果和改动变化。再没有配置参数的情况下，页面非常简陋，而且会有一些bug出来。如何调试出令人满意的页面呢？</p>
+<p>如果不会，先去看文档。先后看了<a href="https://gohugo.io/getting-started/configuration/">Hugo文档页面</a>关于参数的描述，之后去hugo theme的GitHub页面去看安装说明，对于整体情况有一个大致的了解。</p>
+<p>hugo的参数配置在<code>config.toml</code>中。每个theme的文件夹中，其中有一个<code>exampleSite</code>的文件夹，里面是一个示例网站的配置，可以把<code>config.toml</code>文件复制到主文件夹，即可看到示例的效果。改动配置文件的一些参数成自己的参数，在浏览器<code>localhost:1313</code>中可以看到实时的效果改变。</p>
+<h3 id="解决bug">解决bug</h3>
+<p>这样一个基本的博客网站搭成了，当还有一些小bug。以下记录我曾经遇到的小bug和解决办法。</p>
+<ol>
+<li>
+<p>修改了配置文件但是<code>localhost:1313</code>页面没啥改变。</p>
+<p>可以在命令行中用<code>ctrl + c</code>关掉服务器，然后再重启，这样效果就出来了。</p>
+</li>
+<li>
+<p>更新了图标一直刷新不出来。</p>
+<p>浏览器有一些缓存的机制，用<code>ctrl+shift+R</code>强制刷新。即可看到更新的图标。</p>
+</li>
+<li>
+<p>配置的主题里面放了一堆国外的链接，像国内知乎豆瓣的网站的图标没有。</p>
+<p>这个没啥办法，主题是外国人做的，所以css里面存的都是国外的常用网址。要用国内的一些常用网址，需要选用国内人制作的theme。我是去网上搜中国人的用Hugo做的博客和相关主题，我用的是jane这个主题。然后clone下别人的博客，研究别人的做法，从模仿开始。这个过程让我进步很大。自己博客还是不完成品，改动是要做加法，而做加法是一个需要不断试错的过程。而研究别人的博客，是在完成品的基础上做减法，自己改动了哪里，效果一下子自己出来了，立刻就明白了这么参数的意义是什么了。国人做的博客，常用的中国网站都有图标。这样就很省很多事情，自己去重新做一个还是蛮麻烦的一件事情。</p>
+</li>
+<li>
+<p>网站的logo怎么设置？</p>
+<p>网站logo需要.ico文件和不同尺寸的png文件。找一张自己的图片，然后在网上搜“ico 在线”，即可看到一些在线编辑的网站。我用的是<a href="https://tool.lu/favicon/">favicon制作 - 在线工具 (tool.lu)</a>，还是挺好用的。然后把下载来的图片放到./static的文件夹下，并且重命名。加载图标的文件地址在<code>./themes/主题/layout/partials/custom_favicon.html</code>中，名字对应即可。在浏览器查看时需要<code>ctrl+shift+R</code>强制刷新加载，不然一直看不出变化，我被坑了很久。</p>
+</li>
+</ol>
+<h3 id="感想">感想</h3>
+<p>整个调试的过程就是一个代码debug的过程，不断发现问题，然后想尽各种办法去寻找解决方案。最烦恼在这，最快乐也在这。</p>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">Loki</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2021-11-21
+      
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="https://differlong.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">个人博客</a>
+          <a href="https://differlong.github.io/tags/hugo/">Hugo</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF-04github_page%E9%85%8D%E7%BD%AE/">
+            
+            <i class="iconfont">
+              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
+</svg>
+
+            </i>
+            <span class="prev-text nav-default">【个人博客搭建之路 04】github_page配置和图床</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF-02hugo%E5%88%9D%E4%BD%93%E9%AA%8C/">
+            <span class="next-text nav-default">【个人博客搭建之路-02】Hugo初体验</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+    
+
+  
 
         </div>
       </div>

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>小怪兽爱吃糯米丸</copyright>
-    <lastBuildDate>Mon, 15 Nov 2021 09:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 21 Nov 2021 13:52:49 +0800</lastBuildDate>
     
         <atom:link href="https://differlong.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,6 +21,75 @@
       
         <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;一个连简介都懒得写的佛系程序员。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>【个人博客搭建之路 04】github_page配置和图床</title>
+      <link>https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF-04github_page%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Sun, 21 Nov 2021 13:52:49 +0800</pubDate>
+      
+      <guid>https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF-04github_page%E9%85%8D%E7%BD%AE/</guid>
+      
+        <description>&lt;h3 id=&#34;github-page配置&#34;&gt;Github Page配置&lt;/h3&gt;
+&lt;p&gt;Hugo本地博客配置完之后，要把静态文件生成到&lt;code&gt;./docs&lt;/code&gt;文件夹下。先在&lt;code&gt;config.toml&lt;/code&gt;中加入&lt;code&gt;publishDic=&#39;docs&#39;&lt;/code&gt;，然后在当前文件夹下命令行调用&lt;code&gt;hugo -D&lt;/code&gt;。这样生成的静态博客页面就在&lt;code&gt;./docs&lt;/code&gt;下了。本地的git建好。github上创建一个名字为&lt;code&gt;你的GitHub用户名.github.io&lt;/code&gt;的repo。然后把本地的git上传到这个repo上来。在setting中配置一下路径。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/Differlong/imgserver/main/img/image-20211121140019728.png&#34; alt=&#34;image-20211121140019728&#34;&gt;&lt;/p&gt;
+&lt;p&gt;看到GitHub上的build成功提示，即可打开&lt;code&gt;用户名.github.io&lt;/code&gt;上查看的你在线博客了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/Differlong/imgserver/main/img/image-20211121141334833.png&#34; alt=&#34;image-20211121141334833&#34;&gt;&lt;/p&gt;
+&lt;p&gt;看到我的在线博客可以在线访问，完成的满足感不由自主的生发出来。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/Differlong/imgserver/main/img/image-20211121141535097.png&#34; alt=&#34;image-20211121141535097&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;github图床配置&#34;&gt;GitHub图床配置&lt;/h3&gt;
+&lt;p&gt;要用markdown写博客，不可避免的一个问题是图片该怎么办？简单的办法就是放到当前博客的/static文件的目录下，然后编辑的时候使用相对路径。这样写出来的博客自然是可以在线查看，当缺点是写的时候无法查看，因为网络需要的路径和本地的绝对路径或相对路径都不一样。为了在线的展示，必须牺牲掉本地的浏览体验，我是无法接受的。那么只能够选择在线图床。&lt;/p&gt;
+&lt;p&gt;图床是图片的存储仓库。这样你的博客中用的都是一个在线地址，这样本地浏览和博客访问都是可以正常进行。网上图床很多，大致分为免费的和付费的两种。免费的问题在于加载速度慢，以及无法保证安全性，说不定哪天就关掉了，毕竟人家没有收你钱。付费的当然好，当自己一个小小博客，平时也没几张图片，为了这个花钱实在不值当。有没有既是免费，而且还能够保证安全性的呢？&lt;/p&gt;
+&lt;p&gt;当然有，万能的GitHub！！！GitHub的repo可以当作图床来用。&lt;/p&gt;
+&lt;p&gt;如果每次一张图片都要git push一次，然后自己去copy他的地址，再放到md文件中来，操作非常繁琐，对我这种懒人也太不友好了。有没有像正常写md文件的一样，软件自动上传到GitHub图床呢？&lt;/p&gt;
+&lt;p&gt;你还别说，真有！&lt;/p&gt;
+&lt;p&gt;我用的是typora写markdown文档，然后用PicGo上传到GitHub上，typora自动把本地的地址转成在线的地址。实现了全自动操作，自己再也不用为图片而烦恼了。&lt;/p&gt;
+&lt;h4 id=&#34;picgo设置&#34;&gt;PicGo设置&lt;/h4&gt;
+&lt;p&gt;下载PicGo，正常流程配置即可。最重要的是一个GitHub token的获取。在&lt;a href=&#34;https://github.com/settings/tokens&#34;&gt;Personal Access Tokens (github.com)&lt;/a&gt;页面，点击&lt;code&gt;generate new token&lt;/code&gt;，过期时间选择无限，然后勾选以下的几个权限。把生成的token填写到PicGo的配置文件中即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/Differlong/imgserver/main/img/image-20211121140511403.png&#34; alt=&#34;image-20211121140511403&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;typora配置&#34;&gt;Typora配置&lt;/h4&gt;
+&lt;p&gt;在typora的&lt;code&gt;偏好设置/图片&lt;/code&gt;中，如下设置好采用PicGo上传图片。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/Differlong/imgserver/main/img/image-20211121143033993.png&#34; alt=&#34;image-20211121143033993&#34;&gt;&lt;/p&gt;
+&lt;p&gt;然后你就可以开心愉快的写博客了！！&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>【个人博客搭建之路 03】Hugo踩坑实录</title>
+      <link>https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF-03hugo%E8%B8%A9%E5%9D%91%E5%AE%9E%E5%BD%95/</link>
+      <pubDate>Sun, 21 Nov 2021 13:08:20 +0800</pubDate>
+      
+      <guid>https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF-03hugo%E8%B8%A9%E5%9D%91%E5%AE%9E%E5%BD%95/</guid>
+      
+        <description>&lt;h3 id=&#34;大致了解&#34;&gt;大致了解&lt;/h3&gt;
+&lt;p&gt;搭建完Hugo的初始页面，随意编写几个测试的md，调用&lt;code&gt;hugo server -D&lt;/code&gt;即可看到实际效果和改动变化。再没有配置参数的情况下，页面非常简陋，而且会有一些bug出来。如何调试出令人满意的页面呢？&lt;/p&gt;
+&lt;p&gt;如果不会，先去看文档。先后看了&lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;Hugo文档页面&lt;/a&gt;关于参数的描述，之后去hugo theme的GitHub页面去看安装说明，对于整体情况有一个大致的了解。&lt;/p&gt;
+&lt;p&gt;hugo的参数配置在&lt;code&gt;config.toml&lt;/code&gt;中。每个theme的文件夹中，其中有一个&lt;code&gt;exampleSite&lt;/code&gt;的文件夹，里面是一个示例网站的配置，可以把&lt;code&gt;config.toml&lt;/code&gt;文件复制到主文件夹，即可看到示例的效果。改动配置文件的一些参数成自己的参数，在浏览器&lt;code&gt;localhost:1313&lt;/code&gt;中可以看到实时的效果改变。&lt;/p&gt;
+&lt;h3 id=&#34;解决bug&#34;&gt;解决bug&lt;/h3&gt;
+&lt;p&gt;这样一个基本的博客网站搭成了，当还有一些小bug。以下记录我曾经遇到的小bug和解决办法。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;修改了配置文件但是&lt;code&gt;localhost:1313&lt;/code&gt;页面没啥改变。&lt;/p&gt;
+&lt;p&gt;可以在命令行中用&lt;code&gt;ctrl + c&lt;/code&gt;关掉服务器，然后再重启，这样效果就出来了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;更新了图标一直刷新不出来。&lt;/p&gt;
+&lt;p&gt;浏览器有一些缓存的机制，用&lt;code&gt;ctrl+shift+R&lt;/code&gt;强制刷新。即可看到更新的图标。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;配置的主题里面放了一堆国外的链接，像国内知乎豆瓣的网站的图标没有。&lt;/p&gt;
+&lt;p&gt;这个没啥办法，主题是外国人做的，所以css里面存的都是国外的常用网址。要用国内的一些常用网址，需要选用国内人制作的theme。我是去网上搜中国人的用Hugo做的博客和相关主题，我用的是jane这个主题。然后clone下别人的博客，研究别人的做法，从模仿开始。这个过程让我进步很大。自己博客还是不完成品，改动是要做加法，而做加法是一个需要不断试错的过程。而研究别人的博客，是在完成品的基础上做减法，自己改动了哪里，效果一下子自己出来了，立刻就明白了这么参数的意义是什么了。国人做的博客，常用的中国网站都有图标。这样就很省很多事情，自己去重新做一个还是蛮麻烦的一件事情。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;网站的logo怎么设置？&lt;/p&gt;
+&lt;p&gt;网站logo需要.ico文件和不同尺寸的png文件。找一张自己的图片，然后在网上搜“ico 在线”，即可看到一些在线编辑的网站。我用的是&lt;a href=&#34;https://tool.lu/favicon/&#34;&gt;favicon制作 - 在线工具 (tool.lu)&lt;/a&gt;，还是挺好用的。然后把下载来的图片放到./static的文件夹下，并且重命名。加载图标的文件地址在&lt;code&gt;./themes/主题/layout/partials/custom_favicon.html&lt;/code&gt;中，名字对应即可。在浏览器查看时需要&lt;code&gt;ctrl+shift+R&lt;/code&gt;强制刷新加载，不然一直看不出变化，我被坑了很久。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;感想&#34;&gt;感想&lt;/h3&gt;
+&lt;p&gt;整个调试的过程就是一个代码debug的过程，不断发现问题，然后想尽各种办法去寻找解决方案。最烦恼在这，最快乐也在这。&lt;/p&gt;
 </description>
       
     </item>
