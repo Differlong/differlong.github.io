@@ -39,6 +39,17 @@ hugo的参数配置在`config.toml`中。每个theme的文件夹中，其中有�
 4. 网站的logo怎么设置？
 
    网站logo需要.ico文件和不同尺寸的png文件。找一张自己的图片，然后在网上搜“ico 在线”，即可看到一些在线编辑的网站。我用的是[favicon制作 - 在线工具 (tool.lu)](https://tool.lu/favicon/)，还是挺好用的。然后把下载来的图片放到./static的文件夹下，并且重命名。加载图标的文件地址在`./themes/主题/layout/partials/custom_favicon.html`中，名字对应即可。在浏览器查看时需要`ctrl+shift+R`强制刷新加载，不然一直看不出变化，我被坑了很久。
+   
+5. 遇到一个诡异的bug：在本地测试一切正常，上传到GitHub上也一切正常。但是在移动端下，点击横幅的那个按钮，打不开横幅，导致无法切换掉其他页面。在浏览器下调试，说是一个校验的问题， 人都要傻了。
+
+   ```
+   Failed to find a valid digest in the 'integrity' attribute for resource 'xxx' with computed SHA-256 integrity 'xxx'. The resource has been blocked.
+   Unknown error occurred while trying to verify integrity.
+   ```
+
+   解决办法。各种网上查，没啥办法，我也不想去改前端和后端的代码，都不知道bug出在哪一行。最后的看到一个办法，把工程重新编译一遍，可能是编译的问题。死马当活马医，删除掉`./docs`下的文件，重新`hugo -D`，上传到GitHub。竟然发现问题解决了。
+
+   神奇的bug。build的时候也能够出错的吗？
 
 ### 感想
 
