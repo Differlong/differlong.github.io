@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活 on 糯米丸的阁楼 - Geek, OpenSource Fan, 来唠唠我的所见所闻</title>
-    <link>https://differlong.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
+    <link>https://differlong.github.io/tags/%E7%94%9F%E6%B4%BB/</link>
     <description>Recent content in 生活 on 糯米丸的阁楼 - Geek, OpenSource Fan, 来唠唠我的所见所闻</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>小怪兽爱吃糯米丸</copyright>
-    <lastBuildDate>Tue, 26 Apr 2022 09:59:37 +0800</lastBuildDate><atom:link href="https://differlong.github.io/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 09:59:37 +0800</lastBuildDate><atom:link href="https://differlong.github.io/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>怀孕须知</title>
       <link>https://differlong.github.io/post/%E6%80%80%E5%AD%95%E9%A1%BB%E7%9F%A5/</link>
@@ -15,15 +15,6 @@
       
       <guid>https://differlong.github.io/post/%E6%80%80%E5%AD%95%E9%A1%BB%E7%9F%A5/</guid>
       <description>2022年4月25日，A股大跌5.13%，跌破3000信心点位；晚上回家老婆早早孕自测两道杠，我要升级当爸爸了。正如3月15日结婚当天，A股</description>
-    </item>
-    
-    <item>
-      <title>未来投资思路</title>
-      <link>https://differlong.github.io/post/%E6%9C%AA%E6%9D%A5%E6%8A%95%E8%B5%84%E6%80%9D%E8%B7%AF/</link>
-      <pubDate>Sat, 11 Dec 2021 09:55:33 +0800</pubDate>
-      
-      <guid>https://differlong.github.io/post/%E6%9C%AA%E6%9D%A5%E6%8A%95%E8%B5%84%E6%80%9D%E8%B7%AF/</guid>
-      <description>从2020年末开始重新接触股票投资，摈弃杂念，从零开始学做一个稳健的价值投资者。 1. 2021投资复盘 2020年末，30多万资金在余额宝里面躺着</description>
     </item>
     
   </channel>
