@@ -31,7 +31,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.100.0" />
+<meta name="generator" content="Hugo 0.89.3" />
 
 
 <link rel="canonical" href="https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF-03hugo%E8%B8%A9%E5%9D%91%E5%AE%9E%E5%BD%95/" />
@@ -364,9 +364,9 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Failed to find a valid digest in the &#39;integrity&#39; attribute for resource &#39;xxx&#39; with computed SHA-256 integrity &#39;xxx&#39;. The resource has been blocked.
-</span></span><span class="line"><span class="cl">Unknown error occurred while trying to verify integrity.
-</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">Failed to find a valid digest in the &#39;integrity&#39; attribute for resource &#39;xxx&#39; with computed SHA-256 integrity &#39;xxx&#39;. The resource has been blocked.
+Unknown error occurred while trying to verify integrity.
+</code></pre></td></tr></table>
 </div>
 </div><p>解决办法。各种网上查，没啥办法，我也不想去改前端和后端的代码，都不知道bug出在哪一行。最后的看到一个办法，把工程重新编译一遍，可能是编译的问题。死马当活马医，删除掉<code>./docs</code>下的文件，重新<code>hugo -D</code>，上传到GitHub。竟然发现问题解决了。</p>
 <p>神奇的bug。build的时候也能够出错的吗？</p>

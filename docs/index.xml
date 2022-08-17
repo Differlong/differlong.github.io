@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>小怪兽爱吃糯米丸</copyright>
-    <lastBuildDate>Thu, 21 Jul 2022 19:09:12 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 17 Aug 2022 21:04:48 +0800</lastBuildDate>
     
         <atom:link href="https://differlong.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,6 +21,31 @@
       
         <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;一个连简介都懒得写的佛系程序员。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>《魁拔之书》读后感</title>
+      <link>https://differlong.github.io/post/%E9%AD%81%E6%8B%94%E4%B9%8B%E4%B9%A6%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+      <pubDate>Wed, 17 Aug 2022 21:04:48 +0800</pubDate>
+      
+      <guid>https://differlong.github.io/post/%E9%AD%81%E6%8B%94%E4%B9%8B%E4%B9%A6%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+      
+        <description>&lt;h3 id=&#34;1-内容简介&#34;&gt;1. 内容简介&lt;/h3&gt;
+&lt;p&gt;本书是国产动画匠心之作《魁拔》的官方前传小说，同时也是世界观的设定手册。&lt;/p&gt;
+&lt;p&gt;跟一般的设定集不同，本书从第四代魁拔迷麟的故事延伸出天界诸神和地界各族的地理风貌、历史更迭、风俗习惯、文化特色、社会制度等等，将冒险小说的壮阔和刺激与细腻的世界观集设定融合一起，可读性非常强。&lt;/p&gt;
+&lt;h3 id=&#34;2-关于作者&#34;&gt;2. 关于作者&lt;/h3&gt;
+&lt;p&gt;作者是北京青青树动漫科技有限公司，即《魁拔》系列电影的创作发行公司。&lt;/p&gt;
+&lt;h3 id=&#34;3-阅读缘由&#34;&gt;3. 阅读缘由&lt;/h3&gt;
+&lt;p&gt;2011年《魁拔1十万火急》横空出世，那时只看日漫的我，惊讶于国内竟然能够创作出如此故事流畅，世界观复杂但自洽的动画出来。但艺术上和口碑上的成功，并不能够掩盖票房上的孱弱。从2011年到2015年，《魁拔1十万火急》，《魁拔2大战元泱界》，《魁拔3战神崛起》一次推出，都维持很高的制作水平，豆瓣评分均在8分以上，但部部血亏。在那个国漫的黑暗年代，没人认可，没有市场，《魁拔》发出了一道微弱的光，拼命的闪亮着。黎明前的黑暗时阴冷可怕的，等《大圣归来》等国漫异军突起时，《魁拔》已经燃尽它所有的心血，随着主创意外离世，《魁拔4》无限期推迟推出。之前阅读过《魁拔之书》的电子版，如今有空买了纸质版重读一遍，又是一次畅快的阅读体验。&lt;/p&gt;
+&lt;h3 id=&#34;4-个人感悟&#34;&gt;4. 个人感悟&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;《魁拔之书》故事流畅，逻辑性很强，天神和地界各族的设定和演变也非常有趣。爪云王子和迷麟的故事充满了童话的感觉。写这本书的时候，作者一定是温柔的看待这个残酷的世界。&lt;/li&gt;
+&lt;li&gt;《魁拔》的世界观非常完善，以我这样爱挑刺的人，都找不出明显的漏洞。最开始接触魁拔世界观时，惊为天人。&lt;/li&gt;
+&lt;li&gt;魁拔的复杂的世界观，配合上公司孱弱的推广能力，观众在看电影时往往不是很明白到底发生了什么，为什么故事会这样。当然你不能够要求别人看电影的时候备一个设定集。往往看过了就过去了。所以这个系列的电影注定小众。&lt;/li&gt;
+&lt;li&gt;我太喜欢海问香了。&lt;/li&gt;
+&lt;/ol&gt;
 </description>
       
     </item>
@@ -586,9 +611,9 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Failed to find a valid digest in the &amp;#39;integrity&amp;#39; attribute for resource &amp;#39;xxx&amp;#39; with computed SHA-256 integrity &amp;#39;xxx&amp;#39;. The resource has been blocked.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Unknown error occurred while trying to verify integrity.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;Failed to find a valid digest in the &amp;#39;integrity&amp;#39; attribute for resource &amp;#39;xxx&amp;#39; with computed SHA-256 integrity &amp;#39;xxx&amp;#39;. The resource has been blocked.
+Unknown error occurred while trying to verify integrity.
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;解决办法。各种网上查，没啥办法，我也不想去改前端和后端的代码，都不知道bug出在哪一行。最后的看到一个办法，把工程重新编译一遍，可能是编译的问题。死马当活马医，删除掉&lt;code&gt;./docs&lt;/code&gt;下的文件，重新&lt;code&gt;hugo -D&lt;/code&gt;，上传到GitHub。竟然发现问题解决了。&lt;/p&gt;
 &lt;p&gt;神奇的bug。build的时候也能够出错的吗？&lt;/p&gt;
@@ -615,8 +640,8 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install hugo
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;brew install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;验证，在命令行下能够执行&lt;code&gt;hugo version&lt;/code&gt;即为成功。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/Differlong/imgserver/main/img/image-20211115173126688.png&#34; alt=&#34;image-20211115173126688&#34;&gt;&lt;/p&gt;
@@ -644,8 +669,8 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site quickstart
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;hugo new site quickstart
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;
@@ -655,8 +680,8 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd ./quickstart
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;cd ./quickstart
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;
@@ -667,9 +692,9 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;git init
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;这样在./themes中多了一个ananke文件夹。&lt;/p&gt;
 &lt;p&gt;在配置文件config.toml中指定theme为ananke，命令行操作为&lt;/p&gt;
@@ -678,8 +703,8 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;echo theme = \&amp;#34;ananke\&amp;#34; &amp;gt;&amp;gt; config.toml
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;echo theme = \&amp;#34;ananke\&amp;#34; &amp;gt;&amp;gt; config.toml
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;当然可以直接打开config.toml自己编辑。&lt;/p&gt;
 &lt;/li&gt;
@@ -690,8 +715,8 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new posts/my-first-post.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;hugo new posts/my-first-post.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;这样就在./content/posts/ 文件夹下创建了一个&lt;code&gt;my-first-post.md&lt;/code&gt;的markdown文件，并写入了一些基本信息。我们可以自己编辑一下，等会看看效果。&lt;/p&gt;
 &lt;/li&gt;
@@ -702,8 +727,8 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server -D
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;hugo server -D
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;如此启动了本地的hugo服务器，可以在浏览器去”localhost:1313“（默认地址，具体看执行完命令后的提示地址），看看自己的博客的样子。&lt;/p&gt;
 &lt;p&gt;hugo服务器对于改动是实时响应的，所以可以边改边看效果。这就是折腾和探索的乐趣了。&lt;/p&gt;
@@ -718,8 +743,8 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo -D
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;hugo -D
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;默认生成在&lt;code&gt;./public/&lt;/code&gt;里面，需要修改可以在config.toml中修改。如增加&lt;code&gt;publicDir=&amp;quot;docs&amp;quot;&lt;/code&gt;,则生成的配置文件在&lt;code&gt;./docs/&lt;/code&gt;下。&lt;/p&gt;
 &lt;/li&gt;
