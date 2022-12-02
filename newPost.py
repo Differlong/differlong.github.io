@@ -4,7 +4,7 @@ import time
 name = input("输入文件名: ")
 name = name.replace(" ", "")
 if ".md" not in name:
-    name = name + + ".md"
+    name = name + ".md"
 
 order = "hugo new post/" + name
 print(order)
