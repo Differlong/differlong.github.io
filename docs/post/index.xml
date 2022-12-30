@@ -7,13 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>小怪兽爱吃糯米丸</copyright>
-    <lastBuildDate>Wed, 30 Nov 2022 20:39:48 +0800</lastBuildDate><atom:link href="https://differlong.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Dec 2022 08:36:49 +0800</lastBuildDate><atom:link href="https://differlong.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《协和专家孕产大百科》读后感</title>
+      <link>https://differlong.github.io/post/%E5%8D%8F%E5%92%8C%E4%B8%93%E5%AE%B6%E5%AD%95%E4%BA%A7%E5%A4%A7%E7%99%BE%E7%A7%91%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+      <pubDate>Fri, 30 Dec 2022 08:36:49 +0800</pubDate>
+      
+      <guid>https://differlong.github.io/post/%E5%8D%8F%E5%92%8C%E4%B8%93%E5%AE%B6%E5%AD%95%E4%BA%A7%E5%A4%A7%E7%99%BE%E7%A7%91%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+      <description>1. 内容简介 怀孕和分娩期间的注意事项，按照时间顺序来叙述，从备孕，怀孕到分娩和新生儿养育各个阶段需要注意的方方面面事项应有尽有，新手爸妈应该人</description>
+    </item>
+    
     <item>
       <title>《行为投资者》读后感</title>
-      <link>https://differlong.github.io/post/%E8%A1%8C%E4%B8%BA%E6%8A%95%E8%B5%84%E8%80%85%E8%AF%BB%E5%90%8E%E6%84%9F.md/</link>
+      <link>https://differlong.github.io/post/%E8%A1%8C%E4%B8%BA%E6%8A%95%E8%B5%84%E8%80%85%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
       <pubDate>Wed, 30 Nov 2022 20:39:48 +0800</pubDate>
       
-      <guid>https://differlong.github.io/post/%E8%A1%8C%E4%B8%BA%E6%8A%95%E8%B5%84%E8%80%85%E8%AF%BB%E5%90%8E%E6%84%9F.md/</guid>
+      <guid>https://differlong.github.io/post/%E8%A1%8C%E4%B8%BA%E6%8A%95%E8%B5%84%E8%80%85%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
       <description>内容简介 心理学如何使用投资行为更富有艺术性和科学性？这本书为投资者介绍了行为投资在投资活动中的应用。 这本书由四个部分组成：第一部分是对合理的</description>
     </item>
     
@@ -177,15 +186,6 @@
       
       <guid>https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF-02hugo%E5%88%9D%E4%BD%93%E9%AA%8C/</guid>
       <description>hugo安装 macOS（homebrew） 参考官方文档，macOS使用homebrew，在terminal中执行以下命令 1 brew install hugo 验证，在命令</description>
-    </item>
-    
-    <item>
-      <title>【个人博客搭建之路-01】技术选型</title>
-      <link>https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF-01%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/</link>
-      <pubDate>Sat, 13 Nov 2021 09:30:00 +0800</pubDate>
-      
-      <guid>https://differlong.github.io/post/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF-01%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B/</guid>
-      <description>为什么要搭建个人博客？ 写博客有很多好处： 其一是它能够迫使你总结你学习的知识，你不但需要消化自己的知识点，还要对知识有更深刻的认识，能够写下来</description>
     </item>
     
   </channel>
