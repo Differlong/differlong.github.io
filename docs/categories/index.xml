@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>小怪兽爱吃糯米丸</copyright>
-    <lastBuildDate>Sun, 22 Jan 2023 09:18:21 +0800</lastBuildDate><atom:link href="https://differlong.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Feb 2023 08:26:22 +0800</lastBuildDate><atom:link href="https://differlong.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>阅读</title>
+      <link>https://differlong.github.io/categories/%E9%98%85%E8%AF%BB/</link>
+      <pubDate>Wed, 22 Feb 2023 08:26:22 +0800</pubDate>
+      
+      <guid>https://differlong.github.io/categories/%E9%98%85%E8%AF%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>投资</title>
+      <link>https://differlong.github.io/categories/%E6%8A%95%E8%B5%84/</link>
+      <pubDate>Mon, 23 Jan 2023 20:16:52 +0800</pubDate>
+      
+      <guid>https://differlong.github.io/categories/%E6%8A%95%E8%B5%84/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>读后感</title>
       <link>https://differlong.github.io/categories/%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
@@ -23,15 +41,6 @@
       <pubDate>Fri, 30 Dec 2022 08:36:49 +0800</pubDate>
       
       <guid>https://differlong.github.io/categories/%E5%AD%95%E4%BA%A7/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>投资</title>
-      <link>https://differlong.github.io/categories/%E6%8A%95%E8%B5%84/</link>
-      <pubDate>Wed, 30 Nov 2022 20:39:48 +0800</pubDate>
-      
-      <guid>https://differlong.github.io/categories/%E6%8A%95%E8%B5%84/</guid>
       <description></description>
     </item>
     
