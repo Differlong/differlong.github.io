@@ -9,35 +9,63 @@
   </url>
   
   <url>
-    <loc>https://differlong.github.io/post/%E6%99%BA%E5%9B%8A%E5%85%A8%E9%9B%86%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
-    <lastmod>2023-02-22T08:26:22+08:00</lastmod>
+    <loc>https://differlong.github.io/categories/</loc>
+    <lastmod>2023-03-27T09:55:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://differlong.github.io/categories/</loc>
-    <lastmod>2023-02-22T08:26:22+08:00</lastmod>
+    <loc>https://differlong.github.io/post/chatgpt%E5%BC%80%E5%88%9B%E7%9A%84%E6%96%B0%E6%97%B6%E4%BB%A3/</loc>
+    <lastmod>2023-03-27T09:55:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://differlong.github.io/post/</loc>
-    <lastmod>2023-02-22T08:26:22+08:00</lastmod>
+    <lastmod>2023-03-27T09:55:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://differlong.github.io/tags/</loc>
-    <lastmod>2023-02-22T08:26:22+08:00</lastmod>
+    <lastmod>2023-03-27T09:55:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://differlong.github.io/tags/%E7%A7%91%E6%8A%80/</loc>
+    <lastmod>2023-03-27T09:55:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://differlong.github.io/categories/%E7%A7%91%E6%8A%80/</loc>
+    <lastmod>2023-03-27T09:55:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://differlong.github.io/</loc>
+    <lastmod>2023-03-27T09:55:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://differlong.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
+    <lastmod>2023-03-27T09:55:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://differlong.github.io/post/%E6%99%BA%E5%9B%8A%E5%85%A8%E9%9B%86%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
     <lastmod>2023-02-22T08:26:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

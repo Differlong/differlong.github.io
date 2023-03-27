@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>科技 on 糯米丸的阁楼 - Geek, OpenSource Fan, 来唠唠我的所见所闻</title>
+    <link>https://differlong.github.io/tags/%E7%A7%91%E6%8A%80/</link>
+    <description>Recent content in 科技 on 糯米丸的阁楼 - Geek, OpenSource Fan, 来唠唠我的所见所闻</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>小怪兽爱吃糯米丸</copyright>
+    <lastBuildDate>Mon, 27 Mar 2023 09:55:33 +0800</lastBuildDate><atom:link href="https://differlong.github.io/tags/%E7%A7%91%E6%8A%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT开创的新时代</title>
+      <link>https://differlong.github.io/post/chatgpt%E5%BC%80%E5%88%9B%E7%9A%84%E6%96%B0%E6%97%B6%E4%BB%A3/</link>
+      <pubDate>Mon, 27 Mar 2023 09:55:33 +0800</pubDate>
+      
+      <guid>https://differlong.github.io/post/chatgpt%E5%BC%80%E5%88%9B%E7%9A%84%E6%96%B0%E6%97%B6%E4%BB%A3/</guid>
+      <description>ChatGPT开创的新时代 ChatGPT去年9月横空出世，在不到3个月的时间，实现了用户数从0到1亿的跨越，在全球刮起了一股生成式AI的旋风</description>
+    </item>
+    
+  </channel>
+</rss>
